@@ -17,21 +17,3 @@ def user_input(user_entry):
 if __name__ == "__main__":
     user_input()
 
-# @click.command()
-# @click.argument("number1", type=int)
-# @click.argument("number2", type=int)
-# @click.argument("number3", type=int)
-# @click.argument("method", default="add")
-# def operators(number1, number2, number3, method):
-#     if method == "add":
-#         result = number1 + number2 + number3
-#         if result < 255:
-#             click.echo(result)
-#             click.echo("The result is lower than 255")
-#         else:
-#             click.echo("The result is more than 255")
-#
-
-
-
-
